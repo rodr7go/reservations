@@ -13,7 +13,7 @@
     </div>
     <div class="container-fluid">
         <div class="">
-            <a href="{{ route('users.create') }}" class="btn btn-mini btn-success">
+            <a href="{{ route('users.create') }}" class="btn btn-xs btn-primary">
                 <i class="icon-plus"></i>
                 Nuevo usuario
             </a>

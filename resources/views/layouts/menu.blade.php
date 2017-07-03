@@ -37,7 +37,7 @@
 </div>
 <!--close-top-serch-->
 <!--sidebar-menu-->
-<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+<div id="sidebar"><a><i></i></a>
     <ul>
         <li class="active"><a href="/users"><i class="icon icon-home"></i> <span>Usuarios</span></a> </li>
 
