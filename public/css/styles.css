@@ -1,0 +1,13 @@
+.dataTables_filter {
+    top: 0;
+}
+.dataTables_length select {
+    width: inherit;
+}
+
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
+}
