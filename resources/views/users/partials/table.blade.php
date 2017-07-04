@@ -7,18 +7,10 @@
                 <th>Nombre de usuario</th>
                 <th>Correo</th>
                 <th>Telefono</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
-            @foreach($users as $user)
-                <tr>
-                    <td>{{ $user->id }}</td>
-                    <td>{{ $user->name }}</td>
-                    <td>{{ $user->username }}</td>
-                    <td>{{ $user->email }}</td>
-                    <td>{{ $user->phone }}</td>
-                </tr>
-            @endforeach
         </tbody>
     </table>
 </div>

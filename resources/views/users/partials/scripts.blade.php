@@ -6,14 +6,20 @@
 <script src="{{ asset('js/plugins/dataTables/dataTables.columnFilter.js')}}"></script>
 
 <script>
-    $('.dataTable').DataTable({
-//        serverSide: true,
+    $('#usersTable').DataTable({
+        serverSide: true,
         processing: true,
         responsive: true,
 //            stateSave: true,
-//        ajax: '/payroll/api/vacation_requests/get/pending',
-//        columns: [
-//        ],
+        ajax: '/users/api/users',
+        columns: [
+            { data: 'id', name: 'id'},
+            { data: 'name', name: 'name'},
+            { data: 'username', name: 'username'},
+            { data: 'email', name: 'email'},
+            { data: 'phone', name: 'phone'},
+            { data: 'actions', name: 'actions'}
+        ],
         language: {
             search: 'Buscar',
             paginate: {

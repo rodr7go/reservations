@@ -8,3 +8,4 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/plugins/font-awesome/font-awesome.css') }}">

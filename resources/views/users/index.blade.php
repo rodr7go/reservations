@@ -26,14 +26,6 @@
             </div>
         </div>
     </div>
-    {{--<div class="">--}}
-        {{--<div class="panel-heading">--}}
-            {{--<h2>Usuarios</h2>--}}
-        {{--</div>--}}
-        {{--<div class="panel-body">--}}
-            {{--@include('users.partials.table')--}}
-        {{--</div>--}}
-    {{--</div>--}}
 
 @endsection
 @section('custom_scripts')
